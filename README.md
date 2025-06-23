@@ -26,6 +26,7 @@ app/:
 
 venv/: Python virtual environment folder
 
+dashboard.py: Script to make a dashboard on StreamLit
 
 ## Getting Started
 
