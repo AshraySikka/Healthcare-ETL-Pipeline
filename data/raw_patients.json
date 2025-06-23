@@ -1,0 +1,137 @@
+[
+    {
+        "patient_id": 1,
+        "age": 34,
+        "gender": "M",
+        "blood_pressure_systolic": 151,
+        "blood_pressure_diastolic": 76,
+        "heart_rate": 104,
+        "appointment_date": "2025-07-13"
+    },
+    {
+        "patient_id": 2,
+        "age": 86,
+        "gender": "F",
+        "blood_pressure_systolic": 146,
+        "blood_pressure_diastolic": 95,
+        "heart_rate": 102,
+        "appointment_date": "2025-07-01"
+    },
+    {
+        "patient_id": 3,
+        "age": 66,
+        "gender": "F",
+        "blood_pressure_systolic": 106,
+        "blood_pressure_diastolic": 85,
+        "heart_rate": 110,
+        "appointment_date": "2025-07-01"
+    },
+    {
+        "patient_id": 4,
+        "age": 54,
+        "gender": "F",
+        "blood_pressure_systolic": 143,
+        "blood_pressure_diastolic": 63,
+        "heart_rate": 82,
+        "appointment_date": "2025-07-02"
+    },
+    {
+        "patient_id": 5,
+        "age": 74,
+        "gender": "M",
+        "blood_pressure_systolic": 126,
+        "blood_pressure_diastolic": 68,
+        "heart_rate": 64,
+        "appointment_date": "2025-07-07"
+    },
+    {
+        "patient_id": 6,
+        "age": 34,
+        "gender": "M",
+        "blood_pressure_systolic": 115,
+        "blood_pressure_diastolic": 91,
+        "heart_rate": 78,
+        "appointment_date": "2025-06-25"
+    },
+    {
+        "patient_id": 7,
+        "age": 29,
+        "gender": "M",
+        "blood_pressure_systolic": 92,
+        "blood_pressure_diastolic": 85,
+        "heart_rate": 87,
+        "appointment_date": "2025-07-13"
+    },
+    {
+        "patient_id": 8,
+        "age": 71,
+        "gender": "F",
+        "blood_pressure_systolic": 111,
+        "blood_pressure_diastolic": 85,
+        "heart_rate": 68,
+        "appointment_date": "2025-07-14"
+    },
+    {
+        "patient_id": 9,
+        "age": 63,
+        "gender": "M",
+        "blood_pressure_systolic": 126,
+        "blood_pressure_diastolic": 62,
+        "heart_rate": 58,
+        "appointment_date": "2025-07-01"
+    },
+    {
+        "patient_id": 10,
+        "age": 56,
+        "gender": "F",
+        "blood_pressure_systolic": 155,
+        "blood_pressure_diastolic": 98,
+        "heart_rate": 56,
+        "appointment_date": "2025-06-29"
+    },
+    {
+        "patient_id": 11,
+        "age": 29,
+        "gender": "M",
+        "blood_pressure_systolic": 131,
+        "blood_pressure_diastolic": 98,
+        "heart_rate": 100,
+        "appointment_date": "2025-07-22"
+    },
+    {
+        "patient_id": 12,
+        "age": 31,
+        "gender": "F",
+        "blood_pressure_systolic": 101,
+        "blood_pressure_diastolic": 69,
+        "heart_rate": 58,
+        "appointment_date": "2025-06-29"
+    },
+    {
+        "patient_id": 13,
+        "age": 33,
+        "gender": "M",
+        "blood_pressure_systolic": 99,
+        "blood_pressure_diastolic": 68,
+        "heart_rate": 76,
+        "appointment_date": "2025-06-26"
+    },
+    {
+        "patient_id": 14,
+        "age": 82,
+        "gender": "M",
+        "blood_pressure_systolic": 102,
+        "blood_pressure_diastolic": 78,
+        "heart_rate": 90,
+        "appointment_date": "2025-07-19"
+    },
+    {
+        "patient_id": 15,
+        "age": 33,
+        "gender": "F",
+        "blood_pressure_systolic": 144,
+        "blood_pressure_diastolic": 67,
+        "heart_rate": 106,
+        "appointment_date": "2025-07-19"
+    }
+]
