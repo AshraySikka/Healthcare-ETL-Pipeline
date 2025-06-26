@@ -1,14 +1,19 @@
 import streamlit as st
 import sqlite3
 import pandas as pd
+import requests
 
 # This will set the page configuration for the Streamlit Dashboard
 st.set_page_config(page_title="Healthcare Dashboard", layout="wide")
 
 # This will connect to SQLite database (that I created in the ETL process)
-conn = sqlite3.connect("data/patient_data.db")
-query = "SELECT * FROM patients"
-df = pd.read_sql_query(query, conn)
+try:
+    response = requests.get("http://127.0.0.1:8000/patients")
+    response.raise_for_status()  # Raise error if API fails
+    df = pd.DataFrame(response.json())
+except requests.exceptions.RequestException as e:
+    st.error(f"Error fetching data from API: {e}")
+    df = pd.DataFrame() 
 
 st.title("Healthcare ETL Dashboard")
 
@@ -56,5 +61,3 @@ filtered_df = df[
 
 st.subheader("Patient Records")
 st.dataframe(filtered_df)
-
-conn.close()
