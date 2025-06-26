@@ -8,7 +8,7 @@ st.set_page_config(page_title="Healthcare Dashboard", layout="wide")
 
 # This is to connect to the endpoint (that I created in the api.py file)
 try:
-    response = requests.get("http://127.0.0.1:8000/patients")
+    response = requests.get("https://healthcare-etl-pipeline-api.onrender.com/patients")
     response.raise_for_status()  # Raise error if API fails
     df = pd.DataFrame(response.json())
 except requests.exceptions.RequestException as e:
