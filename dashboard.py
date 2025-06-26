@@ -3,10 +3,10 @@ import sqlite3
 import pandas as pd
 import requests
 
-# This will set the page configuration for the Streamlit Dashboard
+# This is to set the configuration for the Streamlit Dashboard
 st.set_page_config(page_title="Healthcare Dashboard", layout="wide")
 
-# This will connect to SQLite database (that I created in the ETL process)
+# This is to connect to the endpoint (that I created in the api.py file)
 try:
     response = requests.get("http://127.0.0.1:8000/patients")
     response.raise_for_status()  # Raise error if API fails
