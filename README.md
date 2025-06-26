@@ -36,6 +36,10 @@ dashboard.py: Script to make a dashboard on StreamLit
 - VS Code or any preferred IDE
 - Required Python packages: `json`, `sqlite3`
 
+## Live Demo
+Explore the interactive Healthcare ETL Dashboard to visualize patient risk data in real time.
+Link: https://9doyfrufk22skc46xhh28b.streamlit.app/
+
 ### Running the Project
 
 1. Clone the repository:
